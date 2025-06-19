@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>URBNCORE - Ropa Deportiva</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+        header, nav {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: red;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .logo {
+            max-width: 150px;
+            margin: 20px auto;
+            display: block;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        .product {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product h3 {
+            color: red;
+            margin: 10px 0;
+        }
+        .buy-button {
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .buy-button:hover {
+            background-color: darkred;
+        }
+        footer {
+            background-color: #000;
+            color: #aaa;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="img/logo.jpeg" alt="URBNCORE Logo" class="logo">
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section id="inicio" class="section">
+    <h1>Bienvenido a URBNCORE</h1>
+    <h2>"Creando Estilo En Cada Cliente"</h2>
+    <p>Tu tienda de ropa deportiva urbana. Aqui encontraras: Diseños modernos, cómodos y con actitud. ¡Luce increíble mientras te mantienes activo!</p>
+    <p>Nos preocupamos por ti!. Nos enfocamos en tu comodidad, estilo y sobre todo calidad para ofrecer lo mejor en el mercado.</p>
+    <p>Nuestros materiales son de la mejor calidad!. Hechos a base de: Poliéster, Nailon y Elastano para brindarte la mejor opción. </p>
+</section>
+
+<section id="productos" class="section">
+    <h2>Nuestros Productos</h2>
+    <div class="products">
+        <div class="product">
+            <img src="img/conjunto_hombre.jpeg" alt="Conjunto Deportivo Hombre">
+            <h3>Conjunto Hombre</h3>
+            <p>Sudadera + Pantalón. Comodidad y estilo urbano.</p>
+            <a href="https://wa.me/5215637016012?text=Hola%2C%20quiero%20comprar%20el%20Conjunto%20Hombre%20de%20URBNCORE" class="buy-button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="img/conjunto_mujer.jpeg" alt="Conjunto Deportivo Mujer">
+            <h3>Conjunto Mujer</h3>
+            <p>Top + Leggings. Rendimiento y actitud.</p>
+            <a href="https://wa.me/5215637016012?text=Hola%2C%20quiero%20comprar%20el%20Conjunto%20Mujer%20de%20URBNCORE" class="buy-button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="img/playera_sin_mangas.jpeg" alt="Playera Sin Mangas">
+            <h3>Playera Sin Mangas</h3>
+            <p>Playera Unisex transpirable. Comodidad y Rendimiento.</p>
+            <a href="https://wa.me/5215637016012?text=Hola%2C%20quiero%20comprar%20la%20Playera%20Sin%20Mangas%20de%20URBNCORE" class="buy-button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="img/playera_manga_corta.jpeg" alt="Playera De Compresión De Manga Corta ">
+            <h3>Playera Manga Corta</h3>
+            <p>Playera Unisex transpirable. Comodidad y Rendimiento.</p>
+            <a href="https://wa.me/5215637016012?text=Hola%2C%20quiero%20comprar%20la%20Playera%20De%20Manga%20Corta%20de%20URBNCORE" class="buy-button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="img/playera_manga_larga.jpeg" alt="Playera De Compresión De Manga Larga">
+            <h3>Playera Manga Larga</h3>
+            <p>Playera Unisex transpirable. Comodidad y Rendimiento.</p>
+            <a href="https://wa.me/5215637016012?text=Hola%2C%20quiero%20comprar%20la%20Playera%20De%20Manga%20Larga%20de%20URBNCORE" class="buy-button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="img/conjunto_infantil.jpeg" alt="Conjunto Infantil Unisex">
+            <h3>Conjunto Infantil</h3>
+            <p>Conjunto Infantil Unisex. Comodidad y Rendimiento.</p>
+            <a href="https://wa.me/5215637016012?text=Hola%2C%20quiero%20comprar%20El%20Conjunto%20Infantil%20de%20URBNCORE" class="buy-button">Comprar</a>
+        </div>
+
+
+
+    </div>
+</section>
+
+<section id="contacto" class="section">
+    <h2>Contáctanos</h2>
+    <p>Correo: leomoral2007@gmail.com | Llamanos: 5637016012</p> 
+    <a href="https://www.instagram.com/urbncore_/" target="_blank"> Instagram: urbncore_</a>
+</section>
+
+<footer>
+    &copy; 2025 URBNCORE. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
